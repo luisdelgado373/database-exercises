@@ -35,4 +35,4 @@ where last_name like '%q%';
 select *
 from employees
 where last_name like '%q%'
-  and not last_name like '%qu%';
+  and last_name not like '%qu%';
